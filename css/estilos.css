@@ -8,10 +8,6 @@
   scroll-padding-top: 2rem;
 }
 
-body {
-  overflow-x: hidden;
-}
-
 .header {
   display: flex;
   align-items: center;
@@ -101,7 +97,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   max-width: 100vw;
-  background: url(../../img/pexels-tirachard-kumtanom-601171.jpg) no-repeat center center fixed;
+  background: url(https://images.pexels.com/photos/601171/pexels-photo-601171.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat center center fixed;
   background-size: cover;
 }
 .imagen-fondo .texto {
