@@ -46,10 +46,11 @@
     
 }
 
-// @media screen (min-width:768) {
+@media (min-width:768px) {
 
-//     .footer{
-//         flex
-//     }
+    .footer{
+        flex-direction: row;
+        
+    }
     
-// }
+}

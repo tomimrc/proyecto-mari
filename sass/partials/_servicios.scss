@@ -18,10 +18,14 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
 
     i{
-        font-size: 3rem
+        font-size: 3rem;
+        
+
     }
 }
 
@@ -29,9 +33,10 @@
     max-width: 100%;
     display:flex;
     flex-direction: column;
-    align-items: baseline;
+    align-items: center;
     padding: 2rem;
     position: relative;
+    margin-bottom: 60px;
 
     h3{
         font-family: 'Unbounded', sans-serif;
@@ -66,3 +71,23 @@
         }
     }
 }
+
+@media (min-width:850px){
+    .servicios-container{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+        
+        align-items: start;
+    }
+
+    .servicios-div{
+        align-items: baseline;
+        
+    }
+    i{
+        margin-top: 10px;
+    }
+    
+ }

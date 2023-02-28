@@ -44,7 +44,7 @@
         border: none;
         border-radius: 10px;
         background-color: #ea9b79;
-        width: 50%;
+        width: 70%;
 
         &:focus{
             border:none;
@@ -55,7 +55,7 @@
     }
 
     .enviar{
-        padding: 15px;
+        padding: 6px;
         color: white;
         background-color: #4F5D75;
         border: none;
@@ -67,5 +67,12 @@
         &:active{
             transform: scale(1.09);
         }
+    }
+}
+
+@media (min-width: 750px){
+    input,
+    textarea{
+        max-width: 40%;
     }
 }

@@ -7,6 +7,7 @@
     align-items: center;
     flex-direction: column;
     background-image: linear-gradient(#D3D8D9,#F5AD8F , #ad8adb , #e69dd1);
+    overflow-y: hidden;
 
     h1{
         padding: 5px;
@@ -37,7 +38,7 @@
         flex-direction: column;
         align-items: center;
         gap: 2rem;
-        width: 80%;
+        width: 50%;
         font-size: 1.2rem;
         text-align: justify;
     
@@ -59,11 +60,13 @@
 
 
     img{
-        width: 35rem;
+        width: 30rem;
         object-fit: cover;
         border-radius: 10px;
-        box-shadow: 10px 10px 15px 10px rgba(0, 0, 0, .5);
-        }
+        box-shadow: 10px 0px 15px 10px rgba(0, 0, 0, .5);
+        overflow-x: hidden;   
+    }
+        
     
     }
 
@@ -97,14 +100,17 @@
 @media screen and (max-width: 768px){
 
     .nosotros{
-        background-color: red;
-        flex-direction: row;
+        overflow: hidden;
+        flex-direction: column;
         flex-wrap: wrap;
+
+        h1{
+            font-size: 3rem;
+        }
     }
 
     .contenedor{
         max-width: 100%;
-        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content:center; 
@@ -113,6 +119,7 @@
     
         .nosotros-texto{
             width: 100%;
+            max-width: 100%;
             display: inline-block;
             text-align: center;
             font-size: 1rem;
@@ -125,7 +132,7 @@
         }
 
         img{
-            max-width: 100vw;
+            max-width: 90vw;
             width: 30rem;
             height: 10rem;
             object-fit: cover;
